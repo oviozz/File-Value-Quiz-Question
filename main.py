@@ -12,6 +12,7 @@ with open(file) as f:
 score = 0
 while score != 10: # 10 round for user to answer
     for ques, answer in zip(d.keys(), d.values()):
+        print('***************************************************************')
         print(ques)
         x = input(': ')
         if x in answer:
